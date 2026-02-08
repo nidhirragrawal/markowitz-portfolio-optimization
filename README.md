@@ -26,24 +26,24 @@ It constructs the Efficient Frontier, identifies the Tangency Portfolio (maximum
 ## Methodology
 
 ### Expected Portfolio Return
-\[
+$$
 R_p = w^T \mu
-\]
+$$
+
 
 ### Portfolio Variance
-\[
+$$
 \sigma_p^2 = w^T \Sigma w
-\]
+$$
 
 ### Sharpe Ratio
-\[
+$$
 S = \frac{R_p - R_f}{\sigma_p}
-\]
+$$
 
 Where:
-- \( w \) = portfolio weights
-- \( \mu \) = expected returns vector
-- \( \Sigma \) = covariance matrix
-- \( R_f \) = risk-free rate
-
+- **w** = portfolio weights  
+- **μ** = expected returns vector  
+- **Σ** = covariance matrix  
+- **Rf** = risk-free rate 
 ## Project Structure
